@@ -1,0 +1,50 @@
+[RESOURCES]
+Normal patients distributor for died
+Normal doctor
+Normal patients distributor for well
+Emergency patients distributor for died
+Admit office for Normal patients
+Emergency patients distributor for well
+Emergency doctor
+Admit office for emergency patients
+[VARIABLES]
+Died patients from normal.NumberOut
+Died percentage.NumberOut False
+Emergency doctor checkup.NumberOut
+Admit emergency.VATime
+Died patient from emergency.VATime
+Died patients from normal.WaitTime
+Died percentage for normal.NumberOut False
+Patient exit.NumberOut
+Admit normal.NumberIn
+Well patients from normal.VATime
+Admit normal.NumberOut
+Well patients from emergecy.NumberOut
+Normal doctor checkup.VATime
+Emergency doctor checkup.VATime
+Admit normal.WaitTime
+Normal doctor checkup.NumberOut
+Admit emergency.NumberIn
+Died percentage.NumberOut True
+Well patients from emergecy.VATime
+Died patients from normal.VATime
+Emergency doctor checkup.NumberIn
+Well patients from emergecy.NumberIn
+Admit emergency.WaitTime
+Died patient from emergency.NumberIn
+Well patients from normal.NumberIn
+Emergency or not?.NumberOut False
+Admit normal.VATime
+Died patient from emergency.NumberOut
+Died patient from emergency.WaitTime
+Well patients from normal.WaitTime
+Patient arrival.NumberOut
+Admit emergency.NumberOut
+Emergency doctor checkup.WaitTime
+Well patients from emergecy.WaitTime
+Normal doctor checkup.NumberIn
+Died percentage for normal.NumberOut True
+Emergency or not?.NumberOut True
+Well patients from normal.NumberOut
+Normal doctor checkup.WaitTime
+Died patients from normal.NumberIn

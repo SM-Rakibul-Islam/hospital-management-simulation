@@ -1,0 +1,155 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Hospital management                                         Run execution date : 4/12/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 4/12/2021
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Well patients from normal.WaitTimePerEntit  .59257     (Insuf)    .00000     1.4833         17    
+Emergency doctor checkup.WaitTimePerEntity  .00000     (Insuf)    .00000     .00000          5    
+Well patients from normal.TotalTimePerEnti  1.5925     (Insuf)    1.0000     2.4833         17    
+Admit normal.VATimePerEntity                .16667     (Insuf)    .16667     .16667         19    
+Normal doctor checkup.VATimePerEntity       .09352     (Insuf)    .08363     .09957         19    
+Emergency doctor checkup.TotalTimePerEntit  .05724     (Insuf)    .05302     .06268          5    
+Died patient from emergency.WaitTimePerEnt  .00000     (Insuf)    .00000     .00000          1    
+Normal doctor checkup.WaitTimePerEntity     .00000     (Insuf)    .00000     .00000         19    
+Admit emergency.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          5    
+Well patients from normal.VATimePerEntity   1.0000     (Insuf)    1.0000     1.0000         17    
+Died patients from normal.VATimePerEntity   4.0000     (Insuf)    4.0000     4.0000          2    
+Admit emergency.TotalTimePerEntity          .04095     (Insuf)    .03339     .04904          5    
+Died patient from emergency.VATimePerEntit  10.000     (Insuf)    10.000     10.000          1    
+Emergency doctor checkup.VATimePerEntity    .05724     (Insuf)    .05302     .06268          5    
+Normal doctor checkup.TotalTimePerEntity    .09352     (Insuf)    .08363     .09957         19    
+Died patient from emergency.TotalTimePerEn  10.000     (Insuf)    10.000     10.000          1    
+Well patients from emergecy.WaitTimePerEnt  .00000     (Insuf)    .00000     .00000          3    
+Admit emergency.VATimePerEntity             .04095     (Insuf)    .03339     .04904          5    
+Admit normal.TotalTimePerEntity             .17804     (Insuf)    .16667     .28233         19    
+Well patients from emergecy.TotalTimePerEn  .50000     (Insuf)    .50000     .50000          3    
+Well patients from emergecy.VATimePerEntit  .50000     (Insuf)    .50000     .50000          3    
+Died patients from normal.TotalTimePerEnti  4.0000     (Insuf)    4.0000     4.0000          2    
+Died patients from normal.WaitTimePerEntit  .00000     (Insuf)    .00000     .00000          2    
+Admit normal.WaitTimePerEntity              .01137     (Insuf)    .00000     .11566         19    
+Patient.VATime                              1.8193     (Insuf)    .58949     10.108         23    
+Patient.NVATime                             .00000     (Insuf)    .00000     .00000         23    
+Patient.WaitTime                            .44738     (Insuf)    .00000     1.5152         23    
+Patient.TranTime                            .00000     (Insuf)    .00000     .00000         23    
+Patient.OtherTime                           .00000     (Insuf)    .00000     .00000         23    
+Patient.TotalTime                           2.2666     (Insuf)    .58949     10.108         23    
+Died patients from normal.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000          2    
+Normal doctor checkup.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         19    
+Died patient from emergency.Queue.WaitingT  .00000     (Insuf)    .00000     .00000          2    
+Well patients from normal.Queue.WaitingTim  .59257     (Insuf)    .00000     1.4833         17    
+Emergency doctor checkup.Queue.WaitingTime  .00000     (Insuf)    .00000     .00000          5    
+Admit normal.Queue.WaitingTime              .01137     (Insuf)    .00000     .11566         19    
+Admit emergency.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          5    
+Well patients from emergecy.Queue.WaitingT  .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Patient.WIP                                 2.5082     (Insuf)    .00000     5.0000     1.0000    
+Normal patients distributor for died.Numbe  .33333     (Insuf)    .00000     1.0000     .00000    
+Normal patients distributor for died.Numbe  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Normal patients distributor for died.Utili  .33333     (Insuf)    .00000     1.0000     .00000    
+Normal doctor.NumberBusy                    .07404     (Insuf)    .00000     1.0000     .00000    
+Normal doctor.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Normal doctor.Utilization                   .07404     (Insuf)    .00000     1.0000     .00000    
+Normal patients distributor for well.Numbe  .70833     (Insuf)    .00000     1.0000     .00000    
+Normal patients distributor for well.Numbe  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Normal patients distributor for well.Utili  .70833     (Insuf)    .00000     1.0000     .00000    
+Emergency patients distributor for died.Nu  .74888     (Insuf)    .00000     1.0000     1.0000    
+Emergency patients distributor for died.Nu  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Emergency patients distributor for died.Ut  .74888     (Insuf)    .00000     1.0000     1.0000    
+Admit office for Normal patients.NumberBus  .13194     (Insuf)    .00000     1.0000     .00000    
+Admit office for Normal patients.NumberSch  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Admit office for Normal patients.Utilizati  .13194     (Insuf)    .00000     1.0000     .00000    
+Emergency patients distributor for well.Nu  .06250     (Insuf)    .00000     1.0000     .00000    
+Emergency patients distributor for well.Nu  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Emergency patients distributor for well.Ut  .06250     (Insuf)    .00000     1.0000     .00000    
+Emergency doctor.NumberBusy                 .01192     (Insuf)    .00000     1.0000     .00000    
+Emergency doctor.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Emergency doctor.Utilization                .01192     (Insuf)    .00000     1.0000     .00000    
+Admit office for emergency patients.Number  .00853     (Insuf)    .00000     1.0000     .00000    
+Admit office for emergency patients.Number  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Admit office for emergency patients.Utiliz  .00853     (Insuf)    .00000     1.0000     .00000    
+Died patients from normal.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Normal doctor checkup.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Died patient from emergency.Queue.NumberIn  .00000     (Insuf)    .00000     .00000     .00000    
+Well patients from normal.Queue.NumberInQu  .41974     (Insuf)    .00000     2.0000     .00000    
+Emergency doctor checkup.Queue.NumberInQue  .00000     (Insuf)    .00000     .00000     .00000    
+Admit normal.Queue.NumberInQueue            .00900     (Insuf)    .00000     1.0000     .00000    
+Admit emergency.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Well patients from emergecy.Queue.NumberIn  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Died patients from normal Number Out        2.0000    
+Emergency doctor checkup Number Out         5.0000    
+Admit emergency Accum VA Time               .20477    
+Died patient from emergency Accum VA Time   10.000    
+Died patients from normal Accum Wait Time   .00000    
+Admit normal Number In                      19.000    
+Well patients from normal Accum VA Time     17.000    
+Admit normal Number Out                     19.000    
+Well patients from emergecy Number Out      3.0000    
+Normal doctor checkup Accum VA Time         1.7768    
+Emergency doctor checkup Accum VA Time      .28620    
+Admit normal Accum Wait Time                .21609    
+Normal doctor checkup Number Out            19.000    
+Admit emergency Number In                   5.0000    
+Well patients from emergecy Accum VA Time   1.5000    
+Died patients from normal Accum VA Time     8.0000    
+Emergency doctor checkup Number In          5.0000    
+Well patients from emergecy Number In       3.0000    
+Admit emergency Accum Wait Time             .00000    
+Well patients from normal Number In         17.000    
+Died patient from emergency Number In       2.0000    
+Admit normal Accum VA Time                  3.1666    
+Died patient from emergency Number Out      1.0000    
+Well patients from normal Accum Wait Time   10.073    
+Died patient from emergency Accum Wait Tim  .00000    
+Admit emergency Number Out                  5.0000    
+Emergency doctor checkup Accum Wait Time    .00000    
+Well patients from emergecy Accum Wait Tim  .00000    
+Normal doctor checkup Number In             19.000    
+Well patients from normal Number Out        17.000    
+Normal doctor checkup Accum Wait Time       .00000    
+Died patients from normal Number In         2.0000    
+Patient.NumberIn                            24.000    
+Patient.NumberOut                           23.000    
+Normal patients distributor for died.Numbe  2.0000    
+Normal patients distributor for died.Sched  .33333    
+Normal doctor.NumberSeized                  19.000    
+Normal doctor.ScheduledUtilization          .07404    
+Normal patients distributor for well.Numbe  17.000    
+Normal patients distributor for well.Sched  .70833    
+Emergency patients distributor for died.Nu  2.0000    
+Emergency patients distributor for died.Sc  .74888    
+Admit office for Normal patients.NumberSei  19.000    
+Admit office for Normal patients.Scheduled  .13194    
+Emergency patients distributor for well.Nu  3.0000    
+Emergency patients distributor for well.Sc  .06250    
+Emergency doctor.NumberSeized               5.0000    
+Emergency doctor.ScheduledUtilization       .01192    
+Admit office for emergency patients.Number  5.0000    
+Admit office for emergency patients.Schedu  .00853    
+System.NumberOut                            23.000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.
